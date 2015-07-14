@@ -11,4 +11,4 @@ RUN bundle install
 
 COPY . /usr/src/app
 EXPOSE 3000
-CMD ["/bin/bash", "/usr/local/bundle/bin/rails server"]
+CMD ["rails", " server"]
